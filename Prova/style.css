@@ -1,0 +1,59 @@
+html, body {height: 100%;min-height: 100%;}
+body{background-color: #f4f4f4;min-width: 768px;color:#2a2a2a;position: relative;}
+
+.header{max-width:1000px;width:100%;padding:20px; background: #fff;margin:0px auto;margin-top:20px;}
+.header__data{float:right;font-size:14px;color:#555757;}
+.header__logo{width: 45%;float:left; }
+.header__share{float:left;padding-top: 38px;margin-left: 50px;}
+.header__share i{color:#ccd2d5;}
+.header__share i:hover{color:blue;}
+.header__bottoni{float: right;margin-right:-250px;margin-top:40px;}
+.header__bottoni li{display: inline-block;margin-right:35px;}
+.login a{text-decoration:none;color:#3ab6e8;padding:12px 1px;}
+.registrati a {color:white;text-decoration: none;font-weight: bold; background-color: #3ab6e8;padding:12px 24px;border-radius: 5%;}
+.registrati a:hover{background-color: #ccd2d5;}
+ .prova{width:1036px; margin:0 auto;background:linear-gradient(to bottom,#3f3f3f 0%, #1c1c1c 100%);padding:2px}
+.navbar li{display:inline-block;margin:0;padding:0;}
+.navbar__items a{display:block; text-decoration: none; color:#fff;text-transform:uppercase;font-weight:bold;padding:1px 17px;font-size:0.88em;}
+.navbar__items a:hover{text-decoration:underline;}
+
+.navbar__search{float:right;margin-top:-45px;font-size:2em; color:#2aafe5}
+.navbar__search:hover{color:#fff;}
+
+.panel__avvisi{color:#fff;padding-top:15px; padding-bottom: 15px;max-width:1000px;min-width:1000px;margin:0 auto;overflow:hidden;}
+
+h1.avvisi__title{color:#fff;margin:0;width:65%;margin:0;border-radius:5px 0 0 5px;background:#2a2a2a;font-size:1.6rem;font-weight: normal;padding:4px 30px;float:left}
+
+.avvisi__right{text-decoration:none;text-transform: uppercase; font-size: .75rem;min-width:227px;width:23%;float:left;background:#3ab6e8;color:#fff;border-radius: 0 5px 5px 0;}
+.avvisi__right:hover{background:#7fcff0;}
+.avvisi__right p{display: block;margin:5px 0px 0px 20px;}
+
+i.icon-right{font-size: 2.5em;float:right; margin-top:-30px;display: block;}
+
+ .topicList{max-width:1000px;min-width: 1000px;display: block;background:#f4f4f4;margin:0 auto;margin-top:20px;padding-left:20px;}
+.topicList__title{font-size:.875rem;font-style:italic;font-weight:normal;display:inline-block;text-transform:uppercase;color:#2a2a2a;float:left;margin-right:10px; }
+.topicList ul li {background:#3ab6e8;display:inline-block;height:25px;padding:2px; }
+.topicList ul li:hover {background:#7fcff0;}
+.topicList ul a{text-decoration: none;}
+
+a, h2 ,.btn{color:white;font-size: 0.7rem;text-transform: uppercase;font-family: arial;}
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
